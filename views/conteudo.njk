@@ -1,0 +1,49 @@
+{% extends "layout.njk"%}
+    {% block head%}
+    <title>Conteudo</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    {% endblock%}
+
+    {% block content%} 
+    <h1>Melhores conteudos do blog da <a href="https://blog.rocketseat.com.br" target="blank">RocketSeat</a></h1>
+
+    <section class="cards">
+        
+
+        <div class="card" id="https://blog.rocketseat.com.br/mapas-com-react-usando-leaflet/">
+            <img src="https://blog.rocketseat.com.br/content/images/2020/11/blog-thumb-utilizando-mapas-no-react-com-leaflet-1.jpg" alt="">
+            <p>Mapas com React usando Leaflet</p>
+        </div>
+
+        <div class="card" id="https://blog.rocketseat.com.br/como-renomear-varios-arquivos-de-uma-vez-usando-o-terminal/">
+            <img src="https://blog.rocketseat.com.br/content/images/2020/11/thumb-como-renomear-varios-arquivos-de-uma-vez-usando-o-terminal.jpg" alt="">
+            <p>Como renomear vários arquivos de uma vez usando o terminal</p>
+        </div>
+
+        <div class="card" id="https://blog.rocketseat.com.br/nextjs-novidades-na-versao-10-e-atualizacao-do-blog-para-melhorar-a-performance/">
+            <img src="https://blog.rocketseat.com.br/content/images/2020/11/capa_visao-geral-sobre-next-js-na-versao-10-e-atualizacao-do-blog-para-melhorar-a-performance.jpg" alt="">
+            <p>Next.JS - Novidades na versão 10 e atualização do blog para melhorar a performance</p>
+        </div>
+
+
+
+    </section>
+
+    <div class="modal-overlay">
+        <div class="modal">
+            <a class="close-modal">
+                <i class="material-icons">close</i>
+            </a>
+
+            <div class="modal-content">
+                <iframe src="" frameborder="0"></iframe>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+    {% endblock %}

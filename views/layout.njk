@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    
+<head>
+    {% block head%}
+    <title>Conteudo</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"  rel="stylesheet">
+    {% endblock%}
+
+</head>
+<body>
+    <header>
+        <div id="links">
+            <a href="https://discord.com/channels/327861810768117763/384755143859503104" target="blank">Comunidade</a>
+            <a href="mailto:oi@rocketseat.com.br">Email</a>
+            <a href="tel:+5547992078767">Telefone</a>
+            <a href="/">Home</a>
+            <a href="/sobre">Sobre</a>
+            <a href="/conteudo">Conteúdo</a>
+        </div>
+    </header>
+    {% block content%} {% endblock %}
+</body>
+</html>
